@@ -7,8 +7,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+html{
+    height: 100%;
+}
 
 .portfolioLogo{
     width: 50px;
@@ -39,6 +45,7 @@ footer{
     align-items: center;
     background-color: rgb(15, 14, 14);
     flex-direction: column;
+    margin-top: auto;
 
 }
 
@@ -226,7 +233,7 @@ main{
 }
 
 .socialCardWrapper{
-    height: 60dvh;
+    height: 80dvh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -234,13 +241,11 @@ main{
 }
 
 .socialCardImg{
-    width: 100%;
+    width: 200px;
+    height: 200px;
 
 }
 
-.socialCardText{
-    margin-top: 16px;
-}
 
 
 
@@ -371,6 +376,21 @@ main{
     
     }
 
+    /*------------------------------Socials------------------------------------------------*/
+    .socialCardWrapper{
+        height: 80dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialCardImg{
+        width: 100px;
+        height: 100px;
+    
+    }
+
     /*-----------------------SERVICES---------------------------------*/
 
 
@@ -382,6 +402,16 @@ main{
         border: #0F0E0E solid 2px;
         border-radius: 5px;
         
+    }
+
+    /*-------------------ABOUT-----------------------------*/
+
+    .aboutCardWrapperDown{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 30px 30px 30px;
     }
 
 
@@ -437,6 +467,18 @@ main{
         border-radius: 5px;
         
     }
+
+    /*-----------------------about-------------------------*/
+
+    .aboutCardImgDown{
+        height: 350px;
+        width: 200px;
+        border: #0F0E0E solid 1px;
+        border-radius: 5px;
+    }
+    
+
+   
   
 }
     
