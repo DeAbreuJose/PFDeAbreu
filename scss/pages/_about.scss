@@ -1,0 +1,29 @@
+/*--------------------------ABOUT-----------------------------------*/
+
+.aboutCardWrapperDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+  }
+  
+  .aboutCardImgDown {
+    height: 650px;
+    width: 400px;
+    border: #0F0E0E solid 1px;
+    border-radius: 5px;
+  }
+  
+  .aboutCardText {
+    text-align: center;
+  }
+  
+  .aboutCardUpper, .aboutCardImgUpper {
+    width: 100%;
+  }
+  
+  .aboutCardWrapperUpper {
+    background-color: #0F0E0E;
+  }
+  

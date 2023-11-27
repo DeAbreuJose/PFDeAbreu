@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  .portfolioLogo {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .navList {
+    list-style-type: none;
+  }
+  
+  div a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+  }
+  
+  .flexList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 14, 14);
+    flex-direction: column;
+    margin-top: auto;
+  }
+  
+  .footerText {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .heroImg {
+    width: 800px;
+    height: 500px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  
+  .heroWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heroTwoText {
+    padding-right: 32px;
+  }
+  
+  .mainH1 {
+    margin-left: 30px;
+  }
+  
+  main {
+    padding: 80px 20px 80px 20px;
+  }
+  
+  .textHero {
+    padding: 80px 80px 80px 80px;
+    text-align: center;
+    background-color: #0F0E0E;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .rightsText {
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .heroTwoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    margin: 60px 20px 0px 20px;
+  }
+  
+  .heroImgTwo {
+    width: 700px;
+    height: 500px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  
+  .heroWorkButtonSection {
+    padding: 80px 20px 80px 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .heroWorkButton {
+    background-color: #0F0E0E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

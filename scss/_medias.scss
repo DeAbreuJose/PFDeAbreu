@@ -1,0 +1,169 @@
+/*---------------------MEDIAS Q--------------------------------*/
+
+@media (max-width: 1200px) {
+    .heroWrapper {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-direction: column-reverse;
+    }
+  
+    .heroImg {
+      width: 600px;
+      height: 300px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    .heroTwoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+      margin: 60px 20px 0px 20px;
+    }
+  
+    .heroImgTwo {
+      width: 600px;
+      height: 300px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    /*-------------------SERVICES---------------------------*/
+  
+    .servicesCardImg {
+      height: 300px;
+      width: 600px;
+      margin: 0%;
+      border: #0F0E0E solid 2px;
+      border-radius: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /*---------------------INDEX-------------------------------*/
+  
+    .heroWrapper {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-direction: column-reverse;
+    }
+  
+    .heroImg {
+      width: 300px;
+      height: 200px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    .heroTwoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+      margin: 60px 20px 0px 20px;
+    }
+  
+    .heroImgTwo {
+      width: 300px;
+      height: 200px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    /*------------------------------Socials------------------------------------------------*/
+  
+    .socialCardWrapper {
+      height: 80dvh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .socialCardImg {
+      width: 100px;
+      height: 100px;
+    }
+  
+    /*-----------------------SERVICES---------------------------------*/
+  
+    .servicesCardImg {
+      height: 200px;
+      width: 300px;
+      margin: 0%;
+      border: #0F0E0E solid 2px;
+      border-radius: 5px;
+    }
+  
+    /*-------------------ABOUT-----------------------------*/
+  
+    .aboutCardWrapperDown {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px 30px 30px 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /*--------------------INDEX-----------------------------*/
+  
+    .heroWrapper {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-direction: column-reverse;
+    }
+  
+    .heroImg {
+      width: 300px;
+      height: 200px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    .heroTwoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+      margin: 60px 20px 0px 20px;
+    }
+  
+    .heroImgTwo {
+      width: 300px;
+      height: 200px;
+      border: solid black 3px;
+      border-radius: 2px;
+    }
+  
+    /*-------------------SERVICES---------------------------*/
+  
+    .servicesCardImg {
+      height: 200px;
+      width: 300px;
+      margin: 0%;
+      border: #0F0E0E solid 2px;
+      border-radius: 5px;
+    }
+  
+    /*-----------------------about-------------------------*/
+  
+    .aboutCardImgDown {
+      height: 350px;
+      width: 200px;
+      border: #0F0E0E solid 1px;
+      border-radius: 5px;
+    }
+  }
+  

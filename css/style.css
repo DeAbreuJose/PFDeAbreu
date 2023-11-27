@@ -1,484 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
-.portfolioLogo{
-    width: 50px;
-    margin-bottom: 20px;
+.portfolioLogo {
+  width: 50px;
+  margin-bottom: 20px;
 }
 
-.navList{
-    list-style-type:none;
+.navList {
+  list-style-type: none;
 }
 
-div a{
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    margin-right: 30px;
-    color: white;
-    
+div a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
 }
 
 .flexList {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    background-color: rgb(15, 14, 14);
-    flex-direction: column;
-    margin-top: auto;
-
+footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(15, 14, 14);
+  flex-direction: column;
+  margin-top: auto;
 }
 
-.footerText{
-    color: white;
-    padding-bottom: 10px;
-    padding-top: 20px;
+.footerText {
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
-
-
-.heroImg{
-    width: 800px;
-    height: 500px;
-    border: solid black 3px;
-    border-radius: 2px;
+.heroImg {
+  width: 800px;
+  height: 500px;
+  border: solid black 3px;
+  border-radius: 2px;
 }
 
-.heroWrapper{
-    
-    display: flex;
-    align-items: center;
-  
+.heroWrapper {
+  display: flex;
+  align-items: center;
 }
 
-.heroTwoText{
-    padding-right: 32px;
+.heroTwoText {
+  padding-right: 32px;
 }
 
-
-
-.mainH1{
-    margin-left: 30px;
-    
+.mainH1 {
+  margin-left: 30px;
 }
 
-main{
-    padding: 80px 20px 80px 20px;
+main {
+  padding: 80px 20px 80px 20px;
 }
 
-.textHero{
-    padding: 80px 80px 80px 80px;
-    text-align: center;
-    background-color: #0F0E0E;
-    color: white;
-    font-size: 30px;
-  
-
+.textHero {
+  padding: 80px 80px 80px 80px;
+  text-align: center;
+  background-color: #0F0E0E;
+  color: white;
+  font-size: 30px;
 }
 
-.rightsText{
-    color: white;
-    padding-bottom: 10px;
-    
-
+.rightsText {
+  color: white;
+  padding-bottom: 10px;
 }
 
-.heroTwoWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
-    margin: 60px 20px 0px 20px;
-
-
+.heroTwoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  margin: 60px 20px 0px 20px;
 }
 
-
-.heroImgTwo{
-    width: 700px;
-    height: 500px;
-    border: solid black 3px;
-    border-radius: 2px;
-
+.heroImgTwo {
+  width: 700px;
+  height: 500px;
+  border: solid black 3px;
+  border-radius: 2px;
 }
 
-.heroWorkButtonSection{
-    padding: 80px 20px 80px 20px;
-    text-align: center;
-    font-size: 30px;
+.heroWorkButtonSection {
+  padding: 80px 20px 80px 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.heroWorkButton{
-    background-color: #0F0E0E;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+.heroWorkButton {
+  background-color: #0F0E0E;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 /*---------------------------WORK HTML-------------------------------*/
-
-.workSectionWrapper{
-    padding: 80px 20px 80px 20px;
+.workSectionWrapper {
+  padding: 80px 20px 80px 20px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.formWrapper{
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.formWrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .formButton {
-    background-color: #0F0E0E;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #0F0E0E;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
 
 /*---------------------------------Services-----------------------------------*/
-
-.servicesCardWrapper{
-    display: flex;
-    padding: 30px 20px 30px 20px;
-    flex-direction: column;
-
+.servicesCardWrapper {
+  display: flex;
+  padding: 30px 20px 30px 20px;
+  flex-direction: column;
 }
 
-.servicesCardImg{
+.servicesCardImg {
+  height: 550px;
+  width: 1000px;
+  margin: 0%;
+  border: #0F0E0E solid 2px;
+  border-radius: 5px;
+}
 
-    height: 550px;
-    width: 1000px;
+.servicesCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.servicesCardText {
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+}
+
+.ServicesCardButton {
+  background-color: #0F0E0E;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+/*---------------------------SOCIALS-------------------------------*/
+.socialIconWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.socialCardWrapper {
+  height: 80dvh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socialCardImg {
+  width: 200px;
+  height: 200px;
+}
+
+/*--------------------------ABOUT-----------------------------------*/
+.aboutCardWrapperDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 30px 30px 30px;
+}
+
+.aboutCardImgDown {
+  height: 650px;
+  width: 400px;
+  border: #0F0E0E solid 1px;
+  border-radius: 5px;
+}
+
+.aboutCardText {
+  text-align: center;
+}
+
+.aboutCardUpper, .aboutCardImgUpper {
+  width: 100%;
+}
+
+.aboutCardWrapperUpper {
+  background-color: #0F0E0E;
+}
+
+/*---------------------MEDIAS Q--------------------------------*/
+@media (max-width: 1200px) {
+  .heroWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .heroImg {
+    width: 600px;
+    height: 300px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  .heroTwoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin: 60px 20px 0px 20px;
+  }
+  .heroImgTwo {
+    width: 600px;
+    height: 300px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  /*-------------------SERVICES---------------------------*/
+  .servicesCardImg {
+    height: 300px;
+    width: 600px;
     margin: 0%;
     border: #0F0E0E solid 2px;
     border-radius: 5px;
-    
+  }
 }
-
-.servicesCard{
+@media (max-width: 768px) {
+  /*---------------------INDEX-------------------------------*/
+  .heroWrapper {
     display: flex;
     align-items: center;
-    flex-direction: column
-    
-}
-
-.servicesCardText{
-    text-align: center;
-    padding: 40px 40px 40px 40px;
-
-}
-
-.ServicesCardButton{
-    background-color: #0F0E0E;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-
-
-/*---------------------------SOCIALS-------------------------------*/
-
-.socialIconWrapper{
-    margin-left: auto;
-    margin-right: auto;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .heroImg {
+    width: 300px;
+    height: 200px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  .heroTwoWrapper {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    align-items: center;
-    width: 20%;
-}
-
-.socialCardWrapper{
+    gap: 30px;
+    text-align: center;
+    margin: 60px 20px 0px 20px;
+  }
+  .heroImgTwo {
+    width: 300px;
+    height: 200px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  /*------------------------------Socials------------------------------------------------*/
+  .socialCardWrapper {
     height: 80dvh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.socialCardImg{
-    width: 200px;
+  }
+  .socialCardImg {
+    width: 100px;
+    height: 100px;
+  }
+  /*-----------------------SERVICES---------------------------------*/
+  .servicesCardImg {
     height: 200px;
-
-}
-
-
-
-
-/*--------------------------ABOUT-----------------------------------*/
-
-.aboutCardWrapperDown{
-    display: flex; 
-    flex-direction: row;
+    width: 300px;
+    margin: 0%;
+    border: #0F0E0E solid 2px;
+    border-radius: 5px;
+  }
+  /*-------------------ABOUT-----------------------------*/
+  .aboutCardWrapperDown {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 30px 30px 30px 30px;
+  }
 }
-
-.aboutCardImgDown{
-    height: 650px;
-    width: 400px;
+@media (max-width: 480px) {
+  /*--------------------INDEX-----------------------------*/
+  .heroWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .heroImg {
+    width: 300px;
+    height: 200px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  .heroTwoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin: 60px 20px 0px 20px;
+  }
+  .heroImgTwo {
+    width: 300px;
+    height: 200px;
+    border: solid black 3px;
+    border-radius: 2px;
+  }
+  /*-------------------SERVICES---------------------------*/
+  .servicesCardImg {
+    height: 200px;
+    width: 300px;
+    margin: 0%;
+    border: #0F0E0E solid 2px;
+    border-radius: 5px;
+  }
+  /*-----------------------about-------------------------*/
+  .aboutCardImgDown {
+    height: 350px;
+    width: 200px;
     border: #0F0E0E solid 1px;
     border-radius: 5px;
+  }
 }
 
-.aboutCardText{
-    text-align: center;
-}
-
-.aboutCardUpper{
-    width: 100%;
-}
-
-.aboutCardImgUpper {
-    width: 100%;
-}
-
-.aboutCardWrapperUpper{
-    background-color: #0F0E0E;
-}
-
-
-
-
-/*---------------------MEDIAS Q--------------------------------*/
-
-@media (max-width: 1200px) {
-    .heroWrapper {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        flex-direction: column-reverse;
-    }
-        
-    .heroImg{
-        width: 600px;
-        height: 300px;
-        border: solid black 3px;
-        border-radius: 2px;
-    }
-
-    .heroTwoWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-        margin: 60px 20px 0px 20px;
-        
-        
-    }
-    
-    .heroImgTwo{
-        width: 600px;
-        height: 300px;
-        border: solid black 3px;
-        border-radius: 2px;
-    
-    }
-
-    /*-------------------SERVICES---------------------------*/
-
-    .servicesCardImg{
-
-        height: 300px;
-        width: 600px;
-        margin: 0%;
-        border: #0F0E0E solid 2px;
-        border-radius: 5px;
-        
-    }
-
-
-    
-}
-
-@media (max-width: 768px) {
-   
-   /*---------------------INDEX-------------------------------*/
-   
-    .heroWrapper {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        flex-direction: column-reverse;
-    }
-        
-    .heroImg{
-        width: 300px;
-        height: 200px;
-        border: solid black 3px;
-        border-radius: 2px;
-    }
-
-    .heroTwoWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-        margin: 60px 20px 0px 20px;
-        
-        
-    }
-    
-    .heroImgTwo{
-        width: 300px;
-        height: 200px;
-        border: solid black 3px;
-        border-radius: 2px;
-    
-    }
-
-    /*------------------------------Socials------------------------------------------------*/
-    .socialCardWrapper{
-        height: 80dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .socialCardImg{
-        width: 100px;
-        height: 100px;
-    
-    }
-
-    /*-----------------------SERVICES---------------------------------*/
-
-
-    .servicesCardImg{
-
-        height: 200px;
-        width: 300px;
-        margin: 0%;
-        border: #0F0E0E solid 2px;
-        border-radius: 5px;
-        
-    }
-
-    /*-------------------ABOUT-----------------------------*/
-
-    .aboutCardWrapperDown{
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 30px 30px 30px 30px;
-    }
-
-
-
- 
-}
-
-@media (max-width: 480px) {
-
-    /*--------------------INDEX-----------------------------*/
-    .heroWrapper {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        flex-direction: column-reverse;
-    }
-        
-    .heroImg{
-        width: 300px;
-        height: 200px;
-        border: solid black 3px;
-        border-radius: 2px;
-    }
-
-    .heroTwoWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-        margin: 60px 20px 0px 20px;
-        
-        
-    }
-    
-    .heroImgTwo{
-        width: 300px;
-        height: 200px;
-        border: solid black 3px;
-        border-radius: 2px;
-    
-    }
-    
-    /*-------------------SERVICES---------------------------*/
-
-    .servicesCardImg{
-
-        height: 200px;
-        width: 300px;
-        margin: 0%;
-        border: #0F0E0E solid 2px;
-        border-radius: 5px;
-        
-    }
-
-    /*-----------------------about-------------------------*/
-
-    .aboutCardImgDown{
-        height: 350px;
-        width: 200px;
-        border: #0F0E0E solid 1px;
-        border-radius: 5px;
-    }
-    
-
-   
-  
-}
-    
+/*# sourceMappingURL=style.css.map */
