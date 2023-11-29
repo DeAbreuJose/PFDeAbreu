@@ -10,6 +10,11 @@
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21,#e52d27);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+    background-repeat: no-repeat;
+    
   }
   
   html {
@@ -42,7 +47,7 @@
   footer {
     display: flex;
     align-items: center;
-    background-color: rgb(15, 14, 14);
+    background-color: $color-brand;
     flex-direction: column;
     margin-top: auto;
   }
