@@ -1,0 +1,7 @@
+@mixin bold{
+    font-weight: bolder;
+}
+
+p{
+    @include bold;
+}

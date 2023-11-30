@@ -124,6 +124,10 @@ main {
   text-decoration: none;
 }
 
+p {
+  font-weight: bolder;
+}
+
 /*---------------------------WORK HTML-------------------------------*/
 .workSectionWrapper {
   padding: 80px 20px 80px 20px;
