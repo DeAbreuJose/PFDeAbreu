@@ -129,6 +129,11 @@ p {
   font-weight: bolder;
 }
 
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
 /*---------------------------WORK HTML-------------------------------*/
 .workSectionWrapper {
   padding: 80px 20px 80px 20px;
@@ -224,6 +229,7 @@ p {
 .socialCardImg {
   width: 200px;
   height: 200px;
+  animation: float 2s ease infinite;
 }
 
 /*--------------------------ABOUT-----------------------------------*/
@@ -238,8 +244,8 @@ p {
 .aboutCardImgDown {
   height: 650px;
   width: 400px;
-  border: #0F0E0E solid 1px;
   border-radius: 5px;
+  animation: float ease 2s infinite;
 }
 
 .aboutCardText {
@@ -326,7 +332,7 @@ p {
     height: 80dvh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .socialCardImg {

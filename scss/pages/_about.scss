@@ -11,8 +11,9 @@
   .aboutCardImgDown {
     height: 650px;
     width: 400px;
-    border: #0F0E0E solid 1px;
+    
     border-radius: 5px;
+    animation: float ease 2s infinite;
   }
   
   .aboutCardText {
