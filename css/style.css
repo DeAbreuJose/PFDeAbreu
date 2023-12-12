@@ -244,7 +244,6 @@ p {
 .aboutCardImgDown {
   height: 650px;
   width: 400px;
-  border-radius: 5px;
   animation: float ease 2s infinite;
 }
 
@@ -338,6 +337,7 @@ p {
   .socialCardImg {
     width: 100px;
     height: 100px;
+    animation: float 2s ease infinite;
   }
   /*-----------------------SERVICES---------------------------------*/
   .servicesCardImg {
@@ -397,8 +397,6 @@ p {
   .aboutCardImgDown {
     height: 350px;
     width: 200px;
-    border: #0F0E0E solid 1px;
-    border-radius: 5px;
   }
 }
 
